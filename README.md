@@ -28,7 +28,7 @@ BMI does not take into account body composition, which is the ratio of muscle to
 ![output screen](https://github.com/subhashishansda4/BMI-Calculator/blob/main/work/layout_3.jpg)
 
 ## Working
-![working](https://github.com/subhashishansda4/BMI-Calculator/blob/main/work/BMICalculator.mp4)
+![working](https://github.com/subhashishansda4/BMI-Calculator/assets/84849423/66812bd7-f172-4d8b-873b-a22acde77eea)
 
 #### Calculating Descriptors
 Converting standard_value from IC50 to pIC50 to allow IC50 to be more uniformly distributed. We will convert the IC50 values to the negative logarithmic scale which is essentially -log10. Applying value normalization because values greater than negative logarithmic of 100,000,000 will become negative
