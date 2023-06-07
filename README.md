@@ -28,3 +28,5 @@ BMI does not take into account body composition, which is the ratio of muscle to
 ![output screen](https://github.com/subhashishansda4/BMI-Calculator/blob/main/work/layout_3.jpg)
 
 ## Working
+https://github.com/subhashishansda4/BMI-Calculator/assets/84849423/6c2ec605-962e-40f0-8794-a27690c9073d
+
