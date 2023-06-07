@@ -16,40 +16,19 @@ BMI does not take into account body composition, which is the ratio of muscle to
 * Overweight: BMI 25-29.9
 * Obese: BMI 30-34.9
 * Severely obese: BMI ≥35
- 
+
 ## User Interface
-### Splash
+### Splash Screen
 ![splash](https://github.com/subhashishansda4/BMI-Calculator/blob/main/work/layout_1.jpg)
 
-### Acetylcholinesterase
-Cholinergic enzyme primarily found at postsynaptic neuromuscular junctions, especially in muscles and nerves \
-Lack of acetylcholinesterase contributes to neuromuscular junction dysfunction in Type 1 diabetic neuropathy \
-\
-Search **"acetylcholinesterase"** in all targets :  referring to target proteins and target organisms \
-Selected Target: CHEMBL220 \
-standard_type: IC50 : inhibitory concentration @50% of target protein \
-standard_value: potency of the drug \
-Biologically, these compounds will come into contact with the protein/organism and induce a modulotory activity towards it {either to activate or to inhibit}
+### Main Screen
+![main screen](https://github.com/subhashishansda4/BMI-Calculator/blob/main/work/layout_2.jpg)
 
-### Activity Classification
-* active compound : IC50 < 1000 nM
-* inactive compound : IC50 > 10000 nM
-* intermediate compound : 1000 < IC50 < 10000 
+### Output Screen
+![output screen](https://github.com/subhashishansda4/BMI-Calculator/blob/main/work/layout_3.jpg)
 
-## EDA
-### Lipinski Descriptors
-**rdkit** allows us to compute molecular decriptors for the compounds in the dataset that we have compiled \
-**Christopher Lipinski**, a scientist at Pfizer came up with a set of rule-of-five for evaluating the 'relative druglikeness of the compound' of compounds based on the key pharmaceutical kinetic properties:
-* Absorption
-* Distribution
-* Metabolism
-* Excretion
-
-Lipinski analyzed all orally active FDA-approved drugs in the formulation whether it can be absorbed into the body, distributed to the proper tissue/organs and become metabolised. Following 4 descriptors that was used for his analysis has corresponding values in multiples of 5:
-* Molecular Weight < 500 Dalton
-* Octanol-Water partition coefficient (LogP) < 5
-* Hydrogen bond donors < 5
-* Hydrogen bond acceptors < 10
+## Working
+![working](https://github.com/subhashishansda4/BMI-Calculator/blob/main/work/BMICalculator.mp4)
 
 #### Calculating Descriptors
 Converting standard_value from IC50 to pIC50 to allow IC50 to be more uniformly distributed. We will convert the IC50 values to the negative logarithmic scale which is essentially -log10. Applying value normalization because values greater than negative logarithmic of 100,000,000 will become negative
