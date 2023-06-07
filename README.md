@@ -19,7 +19,7 @@ BMI does not take into account body composition, which is the ratio of muscle to
  
 ## User Interface
 ### Splash
-![freq_plot](https://github.com/subhashishansda4/BMI-Calculator/blob/main/assets/plots/plot_bioactivity_class.jpg)
+![splash](https://github.com/subhashishansda4/BMI-Calculator/blob/main/work/layout_1.jpg)
 
 ### Acetylcholinesterase
 Cholinergic enzyme primarily found at postsynaptic neuromuscular junctions, especially in muscles and nerves \
